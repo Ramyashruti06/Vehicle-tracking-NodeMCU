@@ -35,7 +35,8 @@ This project is an IoT based monitoring system which will track the location of 
 - The data is collected and transmitted through Wi-Fi for monitoring.
 
 ## Sample code 
-,,,
+
+'''
 //Including Libraries
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
@@ -140,7 +141,7 @@ s += """ target=""_top"">Click here!</a> To check the location in Google maps.</
 s += "</body> </html> \n";
 client.print(s); delay(100);
 }
-,,,
+'''
 
 ## Applications 
 - GPS wildlife tracking.
