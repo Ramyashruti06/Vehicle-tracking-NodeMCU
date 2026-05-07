@@ -1,8 +1,11 @@
 # Vehicle-tracking-NodeMCU
-Iot based vehicle tracking system using NodeMCU
+Iot-based Vehicle Tracking System using NodeMCU
+
+## Objective
+The objective of this project is to design an IoT-based vehicle tracking system with the usage of NodeMCU and GPS module to enable real-time monitoring.
 
 ## Overview 
-This project is an IoT based monitoring system which will track the vehicles using NodeMCU and GPS technology.
+This project is an IoT based monitoring system which will track the location of vehicles in real-time using NodeMCU and GPS technology.
 
 ## Technologies used 
 
@@ -21,6 +24,9 @@ This project is an IoT based monitoring system which will track the vehicles usi
 5. Breadboard
 6. Power supply
 
+## Hardware setup 
+<img width="903" height="630" alt="Vehicle tracking" src="https://github.com/user-attachments/assets/bf0d3807-955d-45dc-a89f-05e29e4eebf4" />
+
 ## Working principle 
 
 - GPS collects the coordinates latitude and longitude along with date and time.
@@ -29,7 +35,7 @@ This project is an IoT based monitoring system which will track the vehicles usi
 - The data is collected and transmitted through Wi-Fi for monitoring.
 
 ## Sample code 
-
+,,,
 //Including Libraries
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
@@ -39,8 +45,8 @@ This project is an IoT based monitoring system which will track the vehicles usi
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 TinyGPSPlus gps;  // The TinyGPS++ object
 SoftwareSerial ss(4, 5); // The serial connection to the GPS device(tx,rx)
-const char* ssid = "Pragna";
-const char* password = "janfeb0325";//WiFi details
+const char* ssid = "Your_userID";
+const char* password = "Your_Password";//WiFi details
 float latitude , longitude;
 int year , month , date, hour, minute , second; String date_str , time_str , lat_str , lng_str; int pm;
 WiFiServer server(80);
@@ -134,6 +140,7 @@ s += """ target=""_top"">Click here!</a> To check the location in Google maps.</
 s += "</body> </html> \n";
 client.print(s); delay(100);
 }
+,,,
 
 ## Applications 
 - GPS wildlife tracking.
@@ -155,5 +162,5 @@ client.print(s); delay(100);
 ## Project status 
 Worked on this in my academics as a mini project during my B.Tech.
 
-## AUTHOR
+## Author
 KOTIKALAPUDI RAMYA SHRUTI
