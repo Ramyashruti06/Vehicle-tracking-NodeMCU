@@ -1,8 +1,8 @@
 # Vehicle-tracking-NodeMCU
-Iot-based Vehicle Tracking System using NodeMCU
+IoT-based Vehicle Tracking System using NodeMCU
 
 ## Objective
-The objective of this project is to design an IoT-based vehicle tracking system with the usage of NodeMCU and GPS module to enable real-time monitoring.
+The objective of this project is to design an IoT-based vehicle tracking system using NodeMCU and GPS module to enable real-time monitoring.
 
 ## Overview 
 This project is an IoT based monitoring system which will track the location of vehicles in real-time using NodeMCU and GPS technology.
@@ -19,7 +19,7 @@ This project is an IoT based monitoring system which will track the location of 
 
 1. NodeMCU ESP8266
 2. LCD display I2C module
-3. GPS module NE06M
+3. GPS module NE0-6M
 4. Jumper wires
 5. Breadboard
 6. Power supply
@@ -36,7 +36,7 @@ This project is an IoT based monitoring system which will track the location of 
 
 ## Sample code 
 
-'''
+```
 //Including Libraries
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
@@ -141,8 +141,7 @@ s += """ target=""_top"">Click here!</a> To check the location in Google maps.</
 s += "</body> </html> \n";
 client.print(s); delay(100);
 }
-'''
-'''
+```
 
 ## Applications 
 - GPS wildlife tracking.
@@ -152,7 +151,7 @@ client.print(s); delay(100);
 
 ## Limitations 
 - GPS signals might get jammed.
-- Environmental conditions can cause hinderance in tracking.
+- Environmental conditions can cause interference in tracking.
 - GPS accuracy might vary with signal strengths.
 - Currently unavailable to test the hardware setup.
 
@@ -160,6 +159,12 @@ client.print(s); delay(100);
 - Cloud integration for real-time tracking of vehicles.
 - Mobile application support.
 - SMS alert system.
+
+## Learning Outcomes 
+- Usage of software Arduino IDE.
+- Implementation of IoT concepts.
+- Wi-Fi based Transmission.
+- Understanding real-time data transmission concepts. 
 
 ## Project status 
 Worked on this in my academics as a mini project during my B.Tech.
