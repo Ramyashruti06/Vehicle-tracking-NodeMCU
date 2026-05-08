@@ -8,7 +8,6 @@ The objective of this project is to design an IoT-based vehicle tracking system 
 This project is an IoT based monitoring system which will track the location of vehicles in real-time using NodeMCU and GPS technology.
 
 ## Technologies used 
-
 1. NodeMCU
 2. GPS module
 3. LCD Display 
@@ -16,7 +15,6 @@ This project is an IoT based monitoring system which will track the location of 
 5. Arduino IDE
 
 ## Hardware components 
-
 1. NodeMCU ESP8266
 2. LCD display I2C module
 3. GPS module NE0-6M
@@ -24,18 +22,20 @@ This project is an IoT based monitoring system which will track the location of 
 5. Breadboard
 6. Power supply
 
+## Block diagram
+<img width="638" height="572" alt="Block diagram" src="https://github.com/user-attachments/assets/1f129ba3-efda-439b-89c5-6a8334fced7d" />
+
+
 ## Hardware setup 
 <img width="903" height="630" alt="Vehicle tracking" src="https://github.com/user-attachments/assets/bf0d3807-955d-45dc-a89f-05e29e4eebf4" />
 
 ## Working principle 
-
 - GPS collects the coordinates latitude and longitude along with date and time.
 - NodeMCU establishes the communication via serial monitor.
 - The coordinates are displayed on the LCD display.
 - The data is collected and transmitted through Wi-Fi for monitoring.
 
 ## Sample code 
-
 ```
 //Including Libraries
 #include <TinyGPS++.h>
