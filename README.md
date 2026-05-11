@@ -17,7 +17,7 @@ This project is an IoT based monitoring system which will track the location of 
 ## Hardware components 
 1. NodeMCU ESP8266
 2. LCD display I2C module
-3. GPS module NE0-6M
+3. GPS module NEO-6M
 4. Jumper wires
 5. Breadboard
 6. Power supply
@@ -159,7 +159,7 @@ client.print(s); delay(100);
 
 ## Future Scope 
 - Cloud integration for real-time tracking of vehicles.
-- Mobile application support for mutliple vehicle monitoring.
+- Mobile application support for multiple vehicle monitoring.
 - SMS alert and notification system.
 - Improved GPS accuracy for advanced modules.
 
